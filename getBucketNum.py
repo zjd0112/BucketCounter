@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
 
-lower_blue = np.array([165, 100, 100])
-higher_blue = np.array([175, 255, 255])
+lower_red = np.array([165, 100, 100])
+higher_red = np.array([175, 255, 255])
 maxPlateRatio = 1.45
 minPlateRatio = 0.55
 count = 0;
@@ -43,7 +43,7 @@ if __name__ == '__main__':
     hsv_img = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
     
     # find all eligible pixels
-    in_range_array = cv2.inRange(hsv_img, lower_blue, higher_blue)
+    in_range_array = cv2.inRange(hsv_img, lower_red, higher_red)
 
     cv2.imwrite("temp/temp1.jpg", in_range_array)
 

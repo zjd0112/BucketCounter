@@ -11,9 +11,9 @@ var bucketNum = 0;
 // 创建设备实例
 const device = aliyunIot.device({
     // 激活凭证 这里替换成你自己上一步申请到的激活凭证
-    productKey: 'a1pqGTB02FY',
-    deviceName: 'bucketDetector',
-    deviceSecret: 'XYxRqXH0BHFjI1Nlrgp3CMM89lkazSpA',
+    productKey: 'xxxxxx',
+    deviceName: 'xxxxxx',
+    deviceSecret: 'xxxxxx',
 });
 
 device.on('connect', () => {
