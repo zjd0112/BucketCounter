@@ -1,0 +1,24 @@
+{
+  "name": "BucketCounter",
+  "version": "1.0.0",
+  "description": "## 系统简介 该系统主要功能为自动拍摄当前水桶照片，识别当前未开封的水桶数量，并将当前水桶数量数据推送到钉钉，以提醒同学及时订水。",
+  "main": "main.js",
+  "dependencies": {
+    "aliyun-iot-device-sdk": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zjd0112/BucketCounter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zjd0112/BucketCounter/issues"
+  },
+  "homepage": "https://github.com/zjd0112/BucketCounter#readme"
+}
